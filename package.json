@@ -1,0 +1,9 @@
+{
+  "name": "json-flat-pack-loader",
+  "version": "0.0.1",
+  "description": "A json loader that flattens json.",
+  "main": "index.js",
+  "author": "brenden snyder <brendens@shotzoom.com>",
+  "license": "MIT",
+  "private": false
+}
