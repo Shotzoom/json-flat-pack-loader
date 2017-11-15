@@ -1,5 +1,5 @@
 /**
- * Turns object or json string into a json compatable object.
+ * Turns a value into a json compatible object.
  * 
  * @param {*} value 
  * @returns {object}
@@ -90,7 +90,7 @@ function toObject(digestArray, keySelector) {
 
   for (var index = 0; index < digestArray.length; index++) {
     var element = digestArray[index];
-    var key = keySelector(element.path);
+    var key = element.path.join('.');
     
     result[key] = element.value;
   }
