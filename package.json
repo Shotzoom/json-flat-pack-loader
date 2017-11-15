@@ -5,5 +5,19 @@
   "main": "index.js",
   "author": "brenden snyder <brendens@shotzoom.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "keywords": [
+    "webpack",
+    "loader",
+    "json",
+    "flat json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edufii/json-flat-pack-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edufii/json-flat-pack-loader"
+  },
+  "homepage": "https://github.com/edufii/json-flat-pack-loader"
 }

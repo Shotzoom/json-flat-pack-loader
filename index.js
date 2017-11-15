@@ -119,10 +119,10 @@ function loader(content) {
     this.cachable();
   }
 
-  var digestArray = digest(parse(content));
-  var source = toSource(toObject(digestArray));
-
-  return source;
+  var value = toObject(digest(parse(content)));
+  this.value = value;
+  
+  return toSource(value);
 }
 
 module.exports = loader;
